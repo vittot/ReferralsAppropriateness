@@ -14,8 +14,8 @@ Code for the paper "An Unsupervised Natural Language Processing Pipeline for Ass
 5. Text embedding (UmBERTo-E3C)
 6. Clustering, summarisation and guideline mapping
 7. Evaluation methodology
-8. Hyperparameter selection and comparative baselines (TF-IDF, Word2Vec, UmBERTo-Base, LDA, direct embedding match)
-9. Results: performance against the annotated validation set, pre-processing ablation, comparative evaluation with statistical significance testing (paired bootstrap, Bonferroni-corrected), and a stratified bias check by physician type and year
+8. Hyperparameter selection and baselines comparison (TF-IDF, Word2Vec, UmBERTo-Base, LDA, direct embedding match)
+9. Results: performance against the annotated validation set, pre-processing ablation, and a stratified bias check by physician type and year
 10. Population-scale analysis
 11. Regional, physician and temporal stratification
 12. Embedding space visualisation
@@ -30,7 +30,7 @@ as is, on CPU or GPU.
 
 Python dependencies are listed in `requirements.txt` (`pip install -r requirements.txt`).
 
-The data that support the findings of the study are available from Regione Lombardia but restrictions apply to the availability of these data, which were used under license for the current study, and so are not publicly available.
+The data that support the findings of the study were provided from Regione Lombardia but restrictions apply to the availability of these data, which were used under license for the current study, and so are not publicly available.
 
 ### How to cite
 ```bibtex
