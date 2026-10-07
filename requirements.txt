@@ -1,0 +1,13 @@
+pandas
+numpy
+torch
+transformers
+sentencepiece
+hdbscan
+scikit-learn
+gensim
+matplotlib
+seaborn
+nltk
+statsmodels
+tqdm

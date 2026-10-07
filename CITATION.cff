@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper."
+title: "An Unsupervised Natural Language Processing Pipeline for Assessing Referral Appropriateness"
+authors:
+  - family-names: Torri
+    given-names: Vittorio
+  - family-names: Bottelli
+    given-names: Annamaria
+  - family-names: Ercolanoni
+    given-names: Michele
+  - family-names: Leoni
+    given-names: Olivia
+  - family-names: Ieva
+    given-names: Francesca
+preferred-citation:
+  type: article
+  title: "An Unsupervised Natural Language Processing Pipeline for Assessing Referral Appropriateness"
+  authors:
+    - family-names: Torri
+      given-names: Vittorio
+    - family-names: Bottelli
+      given-names: Annamaria
+    - family-names: Ercolanoni
+      given-names: Michele
+    - family-names: Leoni
+      given-names: Olivia
+    - family-names: Ieva
+      given-names: Francesca
+  journal: "arXiv preprint arXiv:2501.14701"
+  year: 2025
+  url: "https://arxiv.org/abs/2501.14701"
+identifiers:
+  - type: other
+    value: "arXiv:2501.14701"
+    description: "arXiv preprint"
+repository-code: "https://github.com/vittot/ReferralsAppropriateness"
+license: MIT

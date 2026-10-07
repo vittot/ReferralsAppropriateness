@@ -1,4 +1,9 @@
 # An Unsupervised Natural Language Processing Pipeline for Assessing Referral Appropriateness
+
+![arXiv](https://img.shields.io/badge/arXiv-2501.14701-b31b1b.svg)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Code for the paper "An Unsupervised Natural Language Processing Pipeline for Assessing Referral Appropriateness" https://arxiv.org/abs/2501.14701 
 
 `Referral_Appropriateness_NLP.ipynb` contains the full pipeline:
@@ -23,4 +28,16 @@ lists every one of these with what it is and where it comes from, and centralize
 single `RESOURCES` dict — fill that in with your own copies and the rest of the notebook runs
 as is, on CPU or GPU.
 
+Python dependencies are listed in `requirements.txt` (`pip install -r requirements.txt`).
+
 The data that support the findings of the study are available from Regione Lombardia but restrictions apply to the availability of these data, which were used under license for the current study, and so are not publicly available.
+
+### How to cite
+```bibtex
+@article{torri2025referral,
+  title={An Unsupervised Natural Language Processing Pipeline for Assessing Referral Appropriateness},
+  author={Torri, Vittorio and Bottelli, Annamaria and Ercolanoni, Michele and Leoni, Olivia and Ieva, Francesca},
+  journal={arXiv preprint arXiv:2501.14701},
+  year={2025}
+}
+```
